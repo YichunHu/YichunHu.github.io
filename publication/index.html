@@ -476,10 +476,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/index.html"><span>Research</span></a>
+          <a class="nav-link " href="/#publications"><span>Research</span></a>
         </li>
 
         
@@ -669,7 +676,32 @@
         
       
 
-      
+      <div class="form-row mb-4">
+        <div class="col-auto">
+          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
+          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
+        </div>
+        <div class="col-auto">
+          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
+            <option value="*">Type</option>
+            
+            
+          </select>
+        </div>
+        <div class="col-auto">
+          <select class="pub-filters form-control form-control-sm" data-filter-group="year">
+            <option value="*">Date</option>
+            
+            
+            
+            <option value=".year-0001">
+              0001
+            </option>
+            
+            
+          </select>
+        </div>
+      </div>
 
       <div id="container-publications">
         
@@ -728,7 +760,17 @@
 
 
 
-      
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/example/example.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/example/cite.bib">
+  Cite
+</a>
+
 
 
 
